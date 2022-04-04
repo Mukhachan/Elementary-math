@@ -5,10 +5,8 @@ try:
         try:
             x = int(input("\nType anythink: "))
             z = 1
-            for i in range(x):
-                i+=1
+            for i in range(1, x+1):
                 z *= i
-
             print(f'Total: {z}')
         except ValueError:
             print('You entered uncorrect thing')

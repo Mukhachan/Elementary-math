@@ -8,7 +8,7 @@ try:
         try:
             x = int(x)
             while x > 1:
-                sleep(0.1)
+                sleep(0.01)
                 n+=1
                 if x % 2 == 0:
                     x/=2
