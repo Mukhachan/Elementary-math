@@ -1,5 +1,6 @@
 # Collatz hypothesis #
 from time import sleep
+
 try:
     while True:
         x = input("Type anything: ")
